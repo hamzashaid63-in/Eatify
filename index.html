@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eatify</title>
+
+  <link rel="shortcut icon" href="./favicon_io/favicon-32x32.png" type="image/x-icon">
+  <!-- Bootstrap css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <!-- css -->
+  <link rel="stylesheet" href="style.css">
+  <!-- icon -->
+  <!-- Bootstrap Icons CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+  <style>
+    
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');    
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+</style>
+
+
+   
+
+</head>
+
+<body>
+  <!-- header -->
+  <header class="header">
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <div class="bg-img"></div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Delivery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Reveiws</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+
+          </ul>
+
+          <form class="d-flex" role="search">
+            <button class="nav-btn btn" type="submit"><i class="bi bi-search"></i></button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+<!-- section1 -->
+ <section class="section1">
+  <div class="container-fluid con_sec1 ">
+   <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel"  data-bs-interval="3000">
+
+ 
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="sec1-bg-img">
+ <div class="sec1-text">
+      <div class="sec1-heading">
+        <h1> Tiny Pinch, Big Flavor </h1>
+      </div>
+      <div class="sec1-para">
+        <p>The gentle sprinkle of masala not only enhances flavor but also adds a touch of artistry to the dish, showing that cooking is as much about passion as it is about taste. Each pinch carries love and skill, turning every dish into a memorable experience. It’s these small details that elevate food from ordinary to extraordinary.
+          
+         </p>
+      </div>
+    </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+    <div class="sec1-bg-img2">
+       <div class="sec1-text">
+      <div class="sec1-heading">
+        <h1>Savor Every Slice</h1>
+      </div>
+      <div class="sec1-para">
+        <p> Juicy, tender beef crowned with a fresh tomato slice — every bite is a perfect harmony of flavor and freshness. The rich, succulent meat melts in your mouth while the tomato adds a burst of juiciness and color. Garnished with herbs and a touch of spice, this dish is a celebration of taste, texture, and visual appeal.\</p>
+      </div>
+    </div>
+    </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+  </div>
+  
+ </section>
+<section class="section2">
+   <div class="container sec2-continer">
+    <!-- 🌟 Main Heading and Paragraph -->
+    <h2 class="mb-3">🍽️ Welcome to Our Food Gallery</h2>
+    <p class="main-description">
+      Explore a world of mouth-watering flavors! From cheesy pizzas to juicy burgers and refreshing drinks, 
+      our menu is packed with delicious choices made to satisfy every craving. 
+      Pick your favorite below and see what’s cooking! 😋
+    </p>
+
+    <!-- Buttons -->
+   <div class="sec2-btn">
+   
+
+
+    <button class="btn2 active">Pizzas</button>
+    <button class="btn2">Burgers</button>
+    <button class="btn2">Drinks</button>
+    
+   </div>
+
+    <!-- Pizza Section -->
+    <div id="pizza" class="food-section active">
+      <h3 class="text-danger">Delicious Pizzas 🍕</h3>
+      <p class="description">
+        Enjoy our freshly baked pizzas loaded with melting cheese, crispy crusts, and flavorful toppings. 
+        Every bite bursts with authentic taste — perfect for sharing or savoring solo!
+      </p>
+      <div class="image-container">
+        <img src="./images/pizza-1.jpg" alt="Pizza 1">
+        <img src="./images/pizza-2.jpg" alt="Pizza 2">
+        <img src="./images/pizza-3.jpg" alt="Pizza 3">
+      </div>
+    </div>
+
+    <!-- Burger Section -->
+    <div id="burger" class="food-section">
+      <h3 class="text-warning">Juicy Burgers 🍔</h3>
+      <p class="description">
+        Taste the goodness of our handcrafted burgers — grilled to perfection, topped with fresh veggies, 
+        creamy cheese, and a secret sauce that makes every bite unforgettable.
+      </p>
+      <div class="image-container">
+        <img src="./images/burger-1.jpg" alt="Burger 1">
+        <img src="./images/burger-2.jpg" alt="Burger 2">
+        <img src="./images/burger-3.jpg" alt="Burger 3">
+      </div>
+    </div>
+
+    <!-- Drink Section -->
+    <div id="drink" class="food-section">
+      <h3 class="text-info">Refreshing Drinks 🥤</h3>
+      <p class="description">
+        Cool down with our refreshing drinks — from fizzy sodas to creamy shakes, 
+        every sip brings a splash of flavor and freshness to your meal.
+      </p>
+      <div class="image-container">
+        <img src="./images/drink-1.jpg" alt="Drink 1">
+        <img src="./images/drink-2.jpg" alt="Drink 2">
+        <img src="./images/drink-3.jpg" alt="Drink 3">
+      </div>
+    </div>
+  </div>
+</section>
+<!-- section3 -->
+<section class="section3">
+  <div class="continer-fluid">
+    <div class="sec3-img1">
+      <?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="275.000000pt" height="183.000000pt" viewBox="0 0 275.000000 183.000000"
+ preserveAspectRatio="xMidYMid meet">
+
+<g transform="translate(0.000000,183.000000) scale(0.100000,-0.100000)"
+fill="#000000" stroke="none">
+<path d="M1064 1230 c-30 -12 -62 -56 -74 -102 -6 -21 -17 -96 -23 -166 -10
+-101 -18 -136 -36 -165 -12 -20 -29 -37 -37 -37 -19 0 -18 5 11 75 26 63 31
+100 16 110 -18 10 -59 -17 -80 -55 -24 -42 -26 -72 -10 -118 9 -27 8 -36 -11
+-62 -12 -16 -28 -30 -35 -30 -32 0 -37 39 -34 275 2 129 0 237 -4 242 -17 17
+-27 -27 -27 -127 0 -58 -4 -110 -8 -117 -4 -6 -20 -13 -36 -15 -17 -2 -37 -14
+-48 -28 -35 -48 -36 -214 -1 -227 23 -9 39 18 58 98 10 38 21 69 26 69 5 0 9
+-30 9 -67 0 -81 15 -117 52 -121 20 -2 33 6 59 37 21 26 41 41 55 41 13 0 33
+13 48 32 l25 32 11 -46 c7 -26 23 -56 35 -68 24 -22 24 -22 57 -3 18 10 49 42
+68 72 l35 53 3 -56 c2 -41 7 -56 18 -56 19 0 21 9 28 108 4 67 3 82 -9 82 -8
+0 -24 -18 -36 -41 -24 -49 -96 -129 -115 -129 -22 0 -34 36 -41 118 -5 72 -3
+83 25 147 85 196 96 237 66 249 -9 3 -16 6 -17 5 -1 0 -12 -4 -23 -9z m38 -40
+c-3 -30 -71 -202 -84 -215 -12 -11 -3 88 12 145 21 77 80 134 72 70z m-408
+-298 c-1 -17 -12 -64 -24 -104 l-23 -73 -10 35 c-11 43 -3 145 14 166 21 25
+44 12 43 -24z m201 -48 c-9 -25 -21 -41 -27 -38 -14 9 -3 70 19 103 l18 26 3
+-24 c2 -13 -4 -43 -13 -67z"/>
+<path d="M2111 1142 c-14 -27 -11 -238 4 -259 14 -19 18 1 30 159 9 103 -7
+150 -34 100z"/>
+<path d="M1816 1058 c-20 -29 -20 -52 0 -83 16 -24 15 -27 -25 -80 -45 -59
+-66 -70 -59 -30 7 34 -12 32 -47 -5 -16 -16 -33 -30 -38 -30 -11 0 0 86 15
+113 5 10 8 26 6 35 -3 13 -15 6 -54 -31 -33 -30 -57 -45 -67 -41 -19 7 -73
+-20 -81 -41 -11 -30 -6 -37 24 -33 34 5 41 -7 9 -15 -12 -3 -19 -12 -17 -19 9
+-26 34 -12 59 35 14 27 36 58 48 70 l21 22 -1 -48 c-2 -33 3 -53 14 -64 14
+-15 18 -15 41 1 14 9 26 21 26 26 0 18 18 10 23 -11 5 -17 9 -19 27 -9 11 6
+37 33 56 61 20 27 40 49 45 49 12 0 58 -82 61 -109 2 -19 -7 -29 -45 -50 -71
+-39 -116 -79 -135 -118 -16 -33 -16 -36 2 -49 16 -11 24 -11 55 2 45 19 117
+87 141 135 11 20 26 39 35 43 22 8 55 -11 55 -31 0 -12 3 -14 11 -6 18 18 -7
+53 -40 53 -25 0 -29 5 -40 53 -6 29 -25 69 -43 90 -27 34 -29 42 -18 61 6 13
+10 34 8 47 -4 34 -50 39 -72 7z m56 -28 c-5 -36 -18 -45 -31 -22 -14 26 -4 54
+18 50 11 -2 15 -12 13 -28z m-347 -160 c-10 -11 -25 -20 -34 -20 -11 1 -8 8
+13 26 32 29 48 24 21 -6z m375 -124 c0 -39 -115 -136 -161 -136 -18 0 -9 39
+17 70 24 28 117 90 137 90 4 0 7 -11 7 -24z"/>
+<path d="M1287 920 c-36 -42 -54 -128 -36 -166 21 -44 54 -43 100 2 l38 37 20
+-24 c22 -26 22 -26 24 28 0 20 -4 38 -9 40 -5 2 -32 -19 -59 -47 -65 -66 -85
+-66 -85 -2 0 49 36 136 55 134 6 0 13 -11 17 -24 6 -22 6 -22 7 -1 3 59 -33
+70 -72 23z"/>
+<path d="M1420 930 c0 -5 5 -10 10 -10 6 0 10 5 10 10 0 6 -4 10 -10 10 -5 0
+-10 -4 -10 -10z"/>
+<path d="M2115 780 c-7 -12 2 -30 16 -30 12 0 12 27 0 35 -5 3 -12 1 -16 -5z"/>
+</g>
+</svg>
+
+    </div>
+    <div class="sec3-img2">
+      <img src="./images/yum.png" alt="">
+    </div>
+  
+     <div class="sec3-mainIMG"><img src="./images/image_2.jpg" alt=""></div>
+    <div class="sec3-text">
+      <div class="sec3heading"><h1>Don't Wait - Order Now!</h1> </div>
+      <div class="sec3para"><p>Fresh, flavorful, and fast — your favorite meals made with love and delivered to you!
+      </p></div>
+      <button class="sec3-text_btn">Order Now  <i class="bi bi-arrow-right"></i></button>
+    </div>
+      <div class="sec3-2mainIMG"><img src="./images/burger-1.jpg" alt=""></div>
+  </div>
+<!-- section4 -->
+  <div class="sec4heading"><h1>Food Lovers in Action</h1></div>
+   <section class="section4  scroll-gallery">
+    <div class="sec4-vedioRow scroll-row">
+      <div class="video-container">
+
+
+        <video id="foodVideo" src="./images/From KlickPin CF pizza!! _ Quick cooking recipes Food videography Appetizer recipes.mp4" muted autoplay loop ></video>
+        <button class="volume-btn" id="volumeBtn" title="Toggle Sound"><i class="bi bi-volume-mute"></i></button>
+      </div>
+      <div class="video-container">
+        <video id="foodVideo" src="./images/From KlickPin CF Moments gourmands entre amis _ Gourmet moments with friends [Vidéo] en 2025 _ Gourmands Gourmet Restaurant.mp4" muted autoplay loop></video>
+        <button class="volume-btn" id="volumeBtn" title="Toggle Sound"><i class="bi bi-volume-mute"></i></button>
+      </div>
+      <div class="video-container">
+        <video id="foodVideo" src="./images/From KlickPin CF Pin by precious oduyebo on food ideas [Video] _ Best friends shoot Food pictures Friends poses.mp4" muted autoplay loop></video>
+        <button class="volume-btn" id="volumeBtn" title="Toggle Sound"><i class="bi bi-volume-mute"></i></button>
+      </div>
+      <div class="video-container">
+        <video id="foodVideo" src="./images/From KlickPin CF Burger Sliders 🍔 _ Mini burger appetizers Indian street food recipes Street food.mp4" muted autoplay loop></video>
+        <button class="volume-btn" id="volumeBtn" title="Toggle Sound"><i class="bi bi-volume-mute"></i></button>
+      </div>
+      <div class="video-container">
+        <video id="foodVideo" src="./images/From KlickPin CF I love my man♥️🥀💍 in 2025 _ Quick meals Snap food Food videos.mp4" muted autoplay loop></video>
+        <button class="volume-btn" id="volumeBtn" title="Toggle Sound"><i class="bi bi-volume-mute"></i></button>
+      </div>
+      <div class="video-container">
+        <video id="foodVideo" src="./images/From KlickPin CF Korean bbq in a bun - juicy wagyu kalbi & kimchi burgers 🍔 @ Henry’s Burger Tokyo Japan.mp4" muted autoplay loop></video>
+        <button class="volume-btn" id="volumeBtn" title="Toggle Sound"><i class="bi bi-volume-mute"></i></button>
+      </div>
+      <div class="video-container">
+        <video id="foodVideo" src="./images/From KlickPin CF 📍Melthouse GK Delhi in 2025 _ Cake designs Food snapchat Chocolate chip cookies.mp4" muted autoplay loop></video>
+        <button class="volume-btn" id="volumeBtn" title="Toggle Sound"><i class="bi bi-volume-mute"></i></button>
+      </div>
+    </div>
+  </section>
+</section>
+<!-- section5 -->
+<section class="section5">
+  <div class="sec5-heading">
+    <h1>Our Popular Deashes</h1>
+    <p>We recommended to you our most popular dashes you must be try it.</p>
+  </div>
+  <div class="img-warp">
+    <div class="img-card">
+      <div class="sec5-img">
+         <i class="bi bi-heart"></i>
+<img src="./images/From KlickPin CF Pin on Burgers & Sandwiches.jpg" alt="">
+      </div>
+      <div class="img-info">
+<div class="infoparas">
+<div class="info-para">
+  <p>Smash Burgers with Baconnaise Sauce.</p>
+</div>
+<div class="infoprice">
+<h2> $345</h2>
+</div>
+</div>
+<div class="info_stars">
+<div class="info-star">
+  <i class="bi bi-star-fill"></i>
+  <i class="bi bi-star-fill"></i>
+  <i class="bi bi-star-fill"></i>
+  <i class="bi bi-star-half"></i>
+</div>
+<div class="info-point">
+<p>4.5</p>
+</div>
+<div class="info-btn">
+  <button>Buy Now</button>
+</div>
+</div>
+<div class="info-btn2 " style="display: none;">
+  <button>Buy Now</button>
+</div>
+
+      </div>
+    </div>
+    <div class="img-card">
+      <div class="sec5-img">
+         <i class="bi bi-heart"></i>
+<img src="./images/From KlickPin CF Loaded Herb Grilled Chicken with Creamy Pesto Pasta & Roasted Potatoes _ Recipe in 2025 _ Creamy pesto pasta Healthy recipes Grilled chicken.jpg" alt="">
+      </div>
+      <div class="img-info">
+
+<div class="infoparas">
+<div class="info-para">
+  <p>Grilled Chicken with Creamy Pesto Pasta & Roasted Potatoes.</p>
+</div>
+<div class="infoprice">
+ <h2> $345</h2>
+</div>
+</div>
+<div class="info_stars">
+<div class="info-star">
+  <i class="bi bi-star-fill"></i>
+  <i class="bi bi-star-fill"></i>
+  <i class="bi bi-star-fill"></i>
+  <i class="bi bi-star-half"></i>
+</div>
+<div class="info-point">
+<p>4.5</p>
+</div>
+<div class="info-btn">
+  <button>Buy Now</button>
+</div>
+</div>
+<div class="info-btn2 " style="display: none;">
+  <button>Buy Now</button>
+</div>
+      </div>
+    </div>
+    <div class="img-card">
+      <div class="sec5-img">
+         <i class="bi bi-heart"></i>
+<img src="./images/From KlickPin CF Beef-Stuffed Shells with Creamy Ricotta _ Recipe in 2025 _ Pasta dinner recipes Stuffed shells recipe Stuffed pasta shells.jpg" alt="">
+      </div>
+      <div class="img-info">
+<div class="infoparas">
+<div class="info-para">
+  <p>    Beef-Stuffed Shells with Creamy Ricotta.</p>
+</div>
+<div class="infoprice">
+<h2> $345</h2>
+</div>
+</div>
+<div class="info_stars">
+<div class="info-star">
+  <i class="bi bi-star-fill"></i>
+  <i class="bi bi-star-fill"></i>
+  <i class="bi bi-star-fill"></i>
+  <i class="bi bi-star-half"></i>
+</div>
+<div class="info-point">
+<p>4.5</p>
+</div>
+<div class="info-btn">
+  <button>Buy Now</button>
+</div>
+</div>
+<div class="info-btn2 " style="display: none;">
+  <button>Buy Now</button>
+</div>
+      </div>
+    </div>
+    <div class="img-card">
+      <div class="sec5-img">
+         <i class="bi bi-heart"></i>
+<img src="./images/From KlickPin CF Chicken Shawarma with Creamy Garlic Sauce _ Recipe in 2025 _ Chicken shawarma Shawarma Garlic sauce.jpg" alt="">
+      </div>
+      <div class="img-info">
+<div class="infoparas">
+<div class="info-para">
+  <p>Juicy Chicken Shawarma with Creamy Garlic Sauce.</p>
+</div>
+<div class="infoprice">
+<h2> $345</h2>
+</div>
+</div>
+<div class="info_stars">
+<div class="info-star">
+  <i class="bi bi-star-fill"></i>
+  <i class="bi bi-star-fill"></i>
+  <i class="bi bi-star-fill"></i>
+  <i class="bi bi-star-half"></i>
+</div>
+<div class="info-point">
+<p>4.5</p>
+</div>
+<div class="info-btn">
+  <button>Buy Now</button>
+</div>
+</div>
+<div class="info-btn2 " style="display: none;">
+  <button>Buy Now</button>
+</div>
+      </div>
+    </div>
+    <div class="img-card">
+      <div class="sec5-img">
+         <i class="bi bi-heart"></i>
+<img src="./images/From KlickPin CF Ultimate Mixed Pizza Feast with a Cheesy Twist in 2025 _ Cooking Afghan food recipes Healthy homemade recipes.jpg" alt="">
+      </div>
+      <div class="img-info">
+<div class="infoparas">
+<div class="info-para">
+  <p>Ultimate Mixed Pizza Feast with a Cheesy Twist.</p>
+</div>
+<div class="infoprice">
+<h2> $345</h2>
+</div>
+</div>
+<div class="info_stars">
+<div class="info-star">
+  <i class="bi bi-star-fill"></i>
+  <i class="bi bi-star-fill"></i>
+  <i class="bi bi-star-fill"></i>
+  <i class="bi bi-star-half"></i>
+</div>
+<div class="info-point">
+<p>4.5</p>
+</div>
+<div class="info-btn">
+  <button>Buy Now</button>
+</div>
+</div>
+<div class="info-btn2 " style="display: none;">
+  <button>Buy Now</button>
+</div>
+      </div>
+    </div>
+    <div class="img-card">
+      <div class="sec5-img">
+         <i class="bi bi-heart"></i>
+<img src="./images/From KlickPin CF Cheesy Carnival-Style Loaded Waffle Fries.jpg" alt="">
+      </div>
+      <div class="img-info">
+<div class="infoparas">
+<div class="info-para">
+  <p>Cheesy Carnival-Style Loaded Waffle Fries.</p>
+</div>
+<div class="infoprice">
+<h2> $345</h2>
+</div>
+</div>
+<div class="info_stars">
+<div class="info-star">
+  <i class="bi bi-star-fill"></i>
+  <i class="bi bi-star-fill"></i>
+  <i class="bi bi-star-fill"></i>
+  <i class="bi bi-star-half"></i>
+</div>
+<div class="info-point">
+<p>4.5</p>
+</div>
+<div class="info-btn">
+  <button>Buy Now</button>
+</div>
+</div>
+<div class="info-btn2 " style="display: none;">
+  <button>Buy Now</button>
+</div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Footer Section -->
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-logo">
+      <h2><img src="./favicon_io/favicon-32x32.png" alt=""> Eatify</h2>
+      <p>Tiny Pinch, Big Flavor — where every bite is made with passion and love.</p>
+    </div>
+
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">Delivery</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-contact">
+      <h4>Get in Touch</h4>
+      <p><i class="bi bi-geo-alt"></i> Lahore, Pakistan</p>
+      <p><i class="bi bi-telephone"></i> +92 123 456 7890</p>
+      <p><i class="bi bi-envelope"></i> support@eatify.com</p>
+    </div>
+
+    <div class="footer-social">
+      <h4>Follow Us</h4>
+      <div class="social-icons">
+        <a href="#"><i class="bi bi-facebook"></i></a>
+        <a href="#"><i class="bi bi-instagram"></i></a>
+        <a href="#"><i class="bi bi-twitter"></i></a>
+        <a href="#"><i class="bi bi-youtube"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 Eatify. All Rights Reserved.</p>
+  </div>
+</footer>
+
+
+
+
+
+<!-- js -->
+ <script src="main.js"></script>
+  <!-- bootstrap js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
