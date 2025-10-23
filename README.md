@@ -1,4 +1,4 @@
-#  Eatify — Delicious Food Website  
+# 🍔 Eatify — Delicious Food Website  
 
 **Eatify** is a visually rich, fully responsive food website designed to showcase mouthwatering dishes, promote online orders, and provide an engaging user experience.  
 It features dynamic sections like image sliders, interactive food galleries, video highlights, and popular dish showcases.  
